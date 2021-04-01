@@ -72,6 +72,12 @@ Run the script.
 dotnet cuke build build.cuke
 ```
 
+## IDE Support
+
+Visual Studio Code comes with full IDE support for CUKE through the [Cucumber extension](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete)
+
+![Visual Studio Code](/assets/vscode.png)
+
 ## Get involved
 
 Star us on [GitHub](https://github.com/bjorkstromm/cukebuild).
