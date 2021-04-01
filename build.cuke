@@ -1,0 +1,40 @@
+Feature: Build the App
+
+  # Clean
+  Scenario: Clean
+    Given the artifacts directory exists
+    When the build is started
+    Then the artifacts directory is cleaned
+
+  # Restore
+  Scenario: Restore
+    Given the project contains package references
+    And clean has been executed
+    When the build is started
+    Then NuGet packages are restored
+
+  # Build
+  Scenario: Build
+    Given restore has been executed
+    When the build is started
+    Then the project is built using MSBuild
+
+  # Test
+  Scenario: Test
+    Given build has been executed
+    When the build is started
+    Then the project is tested using XUnit
+
+  # Package
+  Scenario: Package
+    Given test has been executed
+    And all tests pass
+    When the build is started
+    Then the project is packaged as NuGet packages
+
+  # Push
+  Scenario: Push
+    Given NuGet packages exist
+    And branch is main
+    When the build is started
+    Then the packages are pushed to nuget.org

@@ -64,7 +64,7 @@ Feature: Build the App
 Run the script.
 
 ```dotnetcli
-dotnet cuke build.cuke
+dotnet cuke build build.cuke
 ```
 
 ## Acknowledgements
