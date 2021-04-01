@@ -12,6 +12,7 @@
     <Description>CUKE Build for .NET</Description>
     <Copyright>2021 Martin Björkström</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/bjorkstromm/cukebuild</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
