@@ -69,4 +69,4 @@ dotnet cuke build.cuke
 
 ## Acknowledgements
 
-Cucumber photo by [Markus Winkler](https://unsplash.com/@@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cucumber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+Cucumber photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cucumber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
