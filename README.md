@@ -22,7 +22,7 @@ dotnet tool install CUKE.Tool
 Feature: Build the App
 
   # Clean
-  Scenarion: Clean
+  Scenario: Clean
     Given artifacts directory exists
     When the build is started
     Then the artifacts directory is cleaned
