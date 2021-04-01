@@ -25,4 +25,4 @@ jobs:
       - name: Run Cuke script
         run: |
           dotnet tool restore
-          dotnet cuke build build build.cuke
+          dotnet cuke build build.cuke
