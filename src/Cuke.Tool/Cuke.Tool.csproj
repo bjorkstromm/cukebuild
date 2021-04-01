@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ToolCommandName>dotnet-cuke</ToolCommandName>
+    <PackAsTool>True</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <PackageId>CUKE.Tool</PackageId>
+    <Title>CUKE.Tool</Title>
+    <Authors>mholo65</Authors>
+    <Description>CUKE Build for .NET</Description>
+    <Copyright>2021 Martin Björkström</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
